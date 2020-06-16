@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>lesson2</title>
+    <style>
+    </style>
+</head>
+<body>
+    <script>
+//-----------------------------------------Задание №1---------------------------------
+
+//         let a=prompt('Введите число а(должно быть меньше чем b)','');
+//         let b=prompt('Введите число b(должно быть больше чем a, но не больше 1000)','');
+//         for (; a < b; a++) {
+//             if (a % 2 == 0) {
+//                 console.log(a ** 2);
+//                 if(a>1000) break;
+//             }
+//         }
+
+//-------------------------------------------------------------------------------------
+//-----------------------------------------Задание №2---------------------------------
+
+// let n = +prompt('enter number to check it primary','');
+// while (isNaN(n)) {
+//     n = +prompt('vvedi CHISLO', '');
+// }
+// let primer = true;       
+//
+// for (let i = 2; i<n && primer ;i++){
+//     if(!(n % i)) {
+//         primer = false;
+//     }
+// }
+// if (n===2 ||(primer==true)) {
+//     alert('its primary number')}
+// else alert('eto sostavnoe chislo') ;
+//
+// console.log(primer);
+//-------------------------------------------------------------------------------------
+//-----------------------------------------Задание №3---------------------------------
+// let sum = 0;
+// let n = +prompt('Введите число, что-бы узнать сумму простых чисел в этом диапазоне','');
+// while (isNaN(n)) {
+//     n = +prompt('vvedi CHISLO', '');
+// }
+// PrimerSum:
+//     for (let i = 2; i <= n; i++) {
+//
+//         for (let j = 2; j < i; j++) {
+//             if (i % j == 0) continue PrimerSum;
+//         }
+//
+//         sum+=i;
+//     }
+// alert(sum);
+// document.write('<h1>'+'сумма простых чисел в этом диапазоне равна '+sum+'<h1>')
+//----------------------------------------------------------------------------------------
+//--------------------------------------Задание №4----------------------------------------
+// let n = +prompt('Введите число для отображения ряда чисел Фибоначчи','');
+// while (isNaN(n)) {
+//     n = +prompt('vvedi CHISLO', '');
+// }
+// let fib_arr = [0,1,1];
+// while (n > 3) {
+//     let fib_last = fib_arr[fib_arr.length - 1];
+//     let fib_prev = fib_arr[fib_arr.length - 2];
+//     fib_new = fib_last + fib_prev;
+//     fib_arr[fib_arr.length] = fib_new;
+//     n--;
+// }
+// console.log(fib_arr);
+//-------------------------------------------------------------------------------------------
+//-------------------------------------Задание №5--------------------------------------------
+
+
+
+// a = +prompt('enter number a');
+// while(isNaN(a)) {
+//     a = +prompt('a is not a number');
+// }
+//
+// b = +prompt('enter number b (b > a) ');
+// while(isNaN(b)) {
+//     b = +prompt('b is not a number');
+// }
+//
+// while(b <= a) {
+//     b = +prompt('enter b > a!');
+// }
+//
+// h = +prompt('enter step h ');
+// while(isNaN(h)) {
+//     h = +prompt('h is not a number');
+// }
+//
+// console.log('----0----');
+// arr1=[];
+// arr = [];
+// for (a; a <= b; a +=h ){
+//     console.log(a);
+//     arr[arr.length]=a;
+// }
+//
+// console.log(arr);
+//
+// for (i=0; i < arr.length; i++) {
+//     x = 1;
+//     y = 2;
+//     for ( j = 0; j < arr[i]; j++, y++) {
+//         if (y <= arr[i]){
+//             x = x * y
+//         }
+//     }
+//     console.log(x);
+//     arr1[arr1.length]=x;
+// }
+// console.log('--------------------------------');
+// console.log(arr1);
+//
+// for (i=0, factorialSumm=0; i<arr1.length;i++){
+//     factorialSumm+=arr1[i]
+// }
+//
+// console.log(factorialSumm);
+
+//-------------------------------------Задание №6--------------------------------------------
+
+// for (i =2, tbody = ''; i <= 100; i+=2){
+//     tbody += '<tr><td>' + i + '</td></tr>';
+// }
+// document.write('<table>' + tbody + '</table>');
+
+
+
+    </script>
+</body>
+</html>
